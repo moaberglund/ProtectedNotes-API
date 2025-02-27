@@ -6,6 +6,7 @@ require('dotenv').config();
 
 // import Routes
 const userRoutes = require('./routes/UserRoutes');
+const noteRoutes = require('./routes/NoteRoutes');
 
 
 const app = express();
@@ -22,6 +23,7 @@ app.listen(port, () => {
 
 // Routes
 app.use('/user', userRoutes);
+app.use('/note', noteRoutes);
 
 // Connect to DB
 mongoose.set("strictQuery", false);
