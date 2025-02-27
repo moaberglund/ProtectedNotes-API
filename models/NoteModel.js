@@ -1,4 +1,4 @@
-// models/note.js
+
 const mongoose = require('mongoose');
 
 // Skapa en Note-schema

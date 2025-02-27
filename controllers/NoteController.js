@@ -1,4 +1,4 @@
-// controllers/noteController.js
+
 const Note = require('../models/NoteModel');
 
 
